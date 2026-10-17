@@ -16,3 +16,5 @@ index_files/
 **/*json
 **/*rds
 .DS_Store
+
+**/*.quarto_ipynb
