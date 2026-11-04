@@ -1,0 +1,79 @@
+bklin12:
+  evaluator: meng2026bc
+  teammate: bklin12
+  n_questions: 5
+  questions:
+    OQ: 5
+    SQ: 5
+    DS: 4
+    RR: 3
+    PR: 4
+  overall_comments:
+    positive: She helped our take notes during the meetings and recap on what we did
+      on our previous meeting.That was really useful.
+    negative: When we were actually doing the powerpoint, she did not really do that
+      much and did not reply to our messages.But she did the presentation part of
+      the work.
+    advice: She need to be reachable and let us know if she doesn't have time for
+      the work.
+    instructor: N/A
+  cycle: mid
+damirstepanovic:
+  evaluator: meng2026bc
+  teammate: damirstepanovic
+  n_questions: 5
+  questions:
+    OQ: 5
+    SQ: 5
+    DS: 5
+    RR: 5
+    PR: 5
+  overall_comments:
+    positive: He really tried his best to do the data analysis part, as I know that
+      part is really hard to do and to explain to the class.
+    negative: N/A
+    advice: Nothing else need to improve, he has been really helpful in the team.
+    instructor: N/A
+  cycle: mid
+nana-lan:
+  evaluator: meng2026bc
+  teammate: nana-lan
+  n_questions: 5
+  questions:
+    OQ: 4
+    SQ: 4
+    DS: 4
+    RR: 5
+    PR: 5
+  overall_comments:
+    positive: She is really nice to talk to and always supporting our team.
+    negative: Not really any challenge.
+    advice: Maybe she can be more open-minded and share more ideas to the group, I
+      feel that she has more ideas in her mind that did not share yet.
+    instructor: N/A
+  cycle: mid
+swu9090:
+  evaluator: meng2026bc
+  teammate: swu9090
+  n_questions: 5
+  questions:
+    OQ: 1
+    SQ: 1
+    DS: 1
+    RR: 1
+    PR: 1
+  overall_comments:
+    positive: She did the presentation and PowerPoint pdf submission parts of the
+      mid-semester check in.
+    negative: She did not share that much ideas during our working process.
+    advice: She should join all the meeting so she can be on track all the time with
+      the team work.
+    instructor: Chia-Ying(Stephanie) Wu have missed one and a half (one of the meeting,
+      we met in person and she was online, but she was there for only 30 mins, not
+      the whole time) meetings for the group work. She did not join the whole process
+      of we develop the questions. She did not do any work on powerpoint. She only
+      appear on the day of the presentation (6-7 hours before the presentation). Then
+      she took the presentation part of the work.
+  cycle: mid
+evaluator: meng2026bc
+

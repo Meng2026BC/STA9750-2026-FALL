@@ -1,0 +1,362 @@
+peer_feedback_assignment_1:
+  issue_number: 92
+  issue_owner: jennywc
+  issue_ok: yes
+  issue_status: OK
+  overall_comments:
+    positive: One notable strength of this submission is how easy it is to follow.
+      The report has a clear structure, and every table is followed by a little  explanation,
+      so I always knew what you did and why you did it. The writing is simple and
+      direct, and the key findings stand out clearly.
+    negative: One area where the submission could be improved is interpreting the
+      surprising patterns in the results instead of just reporting the numbers. For
+      example, the 2023H1 catalog has 18,126 titles, much more than the 6,500 or so
+      in later periods, but the report does not explain why that spike is there. The
+      shows and movies table also has a large NA group in 2023H1, but the findings
+      do not say what that means for the results. Explaining these patterns would
+      make the analysis stronger and show the reader that you questioned your own
+      results.
+    advice: Two concrete steps would improve the submission. First, give the titles
+      with missing runtime a label like "Unknown" instead of leaving them in an NA
+      row, and add a short note explaining the 2023H1 catalog spike. Second, fix the
+      "Initital Data Exploration" typo and vary the sentence openings that repeat
+      "I grouped…" and "I believe…".
+  scores:
+    Written Communication:
+      score: 8.0
+      comment: 'The report is easy to follow and the structure is clear. You explain
+        every table in simple words, so I know what you did and the reason behind
+        the work. The memo is good because it connects the findings to the recommendations.
+        Two small suggestions: first, many sentences start with "I grouped…" or "I
+        believe…", you can change some of them to make it less repetitive. Second,
+        the early observations look like notes, you can write them into full sentences.
+        Also, for the memo, you can push one recommendation further. For example,
+        based on the global content result, say what Netflix should do differently
+        in 2027, not just keep investing.'
+    Project Skeleton:
+      score: 9.0
+      comment: 'The project has a complete structure. All the sections are there:
+        data acquisition, exploration, questions, table answers, memo, and the AI
+        statement, and all the answers are in the right order. The document also renders
+        well. One small mistake: the section heading says "Initital Data Exploration",
+        there is a typo there. Fix that and the skeleton will be better.'
+    Tables & Document Presentation:
+      score: 7.0
+      comment: 'The tables are clean and easy to read. The columns are labeled clearly,
+        and the numbers and percents are formatted well. Things that can fix: when
+        your code loads packages, R prints a lot of announcements, and those show
+        up in the report between your code and your results. You can hide them so
+        the report looks cleaner. Second, not every table has a title. Q1 and Q2 don''t
+        have one, but Q3, Q4, and Q5 do. Adding titles to all of them would make it
+        more consistent.'
+    Data Visualization:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Exploratory Data Analysis:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Code Quality:
+      score: 8.0
+      comment: 'Your code is easy to follow, and your variable names make sense. The
+        "Stranger Things" filter is careful too. Two things to improve: first, you
+        load the same packages again in several places. You can load them once at
+        the top, so the code is cleaner and you don''t get the same loading messages
+        again and again. Second, some titles end up with no label: if a title has
+        no "Season" in its name and its runtime is missing, your code can''t decide,
+        so it falls into an NA row. In 2023H1 that row is 28% of viewing time. You
+        can give those titles a label like "Unknown" so the table is complete.'
+    Data Preparation:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Analysis and Findings:
+      score: 8.0
+      comment: 'The analysis answers all the questions, and the numbers are correct.
+        The findings are clear, and the memo connects them to strategy well. Two findings
+        could use more interpretation: first, the 2023H1 catalog has 18,126 titles,
+        much more than the 6,500 or so in later periods, but you don''t explain why
+        that spike is there. Second, the shows and movies table has a large NA group
+        in 2023H1, but the findings don''t say what that means for the results.'
+    Extra Credit:
+      score: 0.0
+      comment: There is no work have been done for extra credit.
+  mp_number: 1.0
+peer_feedback_assignment_2:
+  issue_number: 103
+  issue_owner: wijdane123-code
+  issue_ok: yes
+  issue_status: OK
+  overall_comments:
+    positive: One notable strength of this submission is how well you interpret surprising
+      patterns instead of just reporting the numbers. For the catalog, you notice
+      that 2023H1 has far more titles but fewer total hours, suggest it may include
+      more short titles, and warn that the first period may not be fully comparable
+      with later ones. For live events, you compare the average and the median to
+      show that typical viewing is similar even though the average is much higher
+      for pre-taped content. That kind of interpretation shows real thinking about
+      what the numbers mean.
+    negative: One area where the submission could be improved is explaining your data
+      choices and definitions. The code fills in missing runtimes and defaults titles
+      with no runtime information to movies, but the report never says so, so a reader
+      cannot tell how those choices affect the results. The global title share is
+      also stated without saying it counts titles available globally in at least one
+      period. A sentence explaining each choice would make the analysis more transparent
+      and easier to trust.
+    advice: 'Three concrete steps would improve the submission. First, add a short
+      note explaining your data choices: that missing runtimes were filled with the
+      title''s average runtime, that titles with no runtime information default to
+      movies, and that the global title share counts titles available globally in
+      at least one period. Second, add a memo recommendation based on the global availability
+      finding, since globally available titles are a minority of titles but a majority
+      of hours viewed. Third, name the comparison period explicitly instead of saying
+      "the earlier period," so the reader knows you mean 2023H2.'
+  scores:
+    Written Communication:
+      score: 8.0
+      comment: 'Your report is easy to follow and well organized. The initial exploration
+        is thorough, and every table is followed by a clear explanation, so I always
+        knew what you did and why. The live events explanation is especially good,
+        because you compare the average and the median to show why they tell different
+        stories. Two small points: you report both 35% of records and 24.6% of titles
+        as globally available without explaining that they count different things,
+        so a reader may get confused. Also, the memo says "the earlier period" without
+        naming it, so it is not clear you mean 2023H2.'
+    Project Skeleton:
+      score: 9.0
+      comment: 'The project has a complete structure. All the sections are there:
+        data acquisition, exploration, table answers, memo, and the AI statement,
+        and all the answers are in the right order. The document also renders well,
+        with a table of contents. One small point: the exploratory findings are given
+        as a numbered list without a section heading, so labeling that section would
+        make the structure even clearer.'
+    Tables & Document Presentation:
+      score: 9.0
+      comment: 'Your tables are clean and easy to read. The columns are labeled clearly,
+        the numbers and percents are formatted well, and every table has a title.
+        The document also looks clean because there are no package loading messages
+        showing. One small point: the code is folded away by default, so a reader
+        has to click to see it. Showing the code by default would make the analysis
+        more transparent.'
+    Data Visualization:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Exploratory Data Analysis:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Code Quality:
+      score: 8.0
+      comment: 'Your code is easy to follow, and you use tidyverse pipelines well.
+        Using inline code for the memo numbers is good, because the memo always matches
+        the calculations. Three things to improve: first, the code fills in missing
+        runtimes with the title''s average runtime, but the report never says that,
+        so a reader may not know the data was changed. Second, titles with no runtime
+        information default to movies, but that choice is not explained either. Third,
+        the show and movie check looks for "Season" with an exact capital S, so it
+        could miss titles written with a small s. Explaining the first two choices
+        in a sentence each would make the code more transparent.'
+    Data Preparation:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Analysis and Findings:
+      score: 8.0
+      comment: 'Your analysis answers all the questions, and the numbers are correct.
+        The findings are clear, and you explain the surprising patterns well, especially
+        the 2023H1 catalog spike and the live events average compared with the median.
+        One gap: the memo does not address the global availability finding, even though
+        globally available titles are a minority of titles but a majority of hours
+        viewed. That finding deserves a recommendation too. Also, the findings note
+        that missing runtime may cause misclassification, but they do not spell out
+        that the high 2023H1 movie share comes from titles with missing runtime defaulting
+        to movies.'
+    Extra Credit:
+      score: 0.0
+      comment: There is no work have been done for extra credit.
+  mp_number: 1.0
+peer_feedback_assignment_3:
+  issue_number: 112
+  issue_owner: andrewwilber
+  issue_ok: yes
+  issue_status: OK
+  overall_comments:
+    positive: 'One notable strength of this submission is that it always explains
+      what the numbers mean. Every table starts with a Key Takeaway, so I knew what
+      to look for before reading the numbers. The memo is also strong because it argues
+      from specific evidence: it repeats the consistent titles table, cites exact
+      shares for series and global content, and includes two charts that make the
+      global and content-mix findings easy to see. That combination of takeaways,
+      evidence, and visuals makes the argument easy to follow and hard to miss.'
+    negative: One area where the submission could be improved is checking the details
+      before submitting. The period end date for the first half is July 30 instead
+      of June 30, the Stranger Things total differs from the stricter filter, and
+      one table column carries the wrong header. None of these change the main story,
+      but together they make the reader doubt the smaller details. A careful final
+      check of dates, filters, labels, and number formats would catch all of them.
+    advice: Three concrete steps would improve the submission. First, change the period
+      end month for the first half from 7 to 6, so the date range ends June 30, 2026
+      instead of July 30. Second, check the Stranger Things filter, using case-insensitive
+      exclusions, to find why the total is 40,400,000 higher than expected. Third,
+      fix the Table 1 share column header to "Share of Total Viewership" and format
+      the top 10 share as a percent, 6.7%, instead of a raw proportion.
+  scores:
+    Written Communication:
+      score: 7.0
+      comment: 'our report is well organized, and the Key Takeaway before each table
+        is a good idea, because I always knew what to look for in the table. The memo
+        is also strong, because it argues from specific numbers instead of general
+        claims. Three details need fixing: first, the date range says July 30, 2026,
+        but the first half of a year ends June 30, so that date is wrong. Second,
+        the top 10 share is given as a raw proportion, 0.066967, instead of a percent
+        like 6.7%, which is hard to read. Third, the catalog takeaway says titles
+        and runtime move in lockstep, but from 2023H1 to 2023H2 the title count drops
+        sharply while runtime rises, so that is not accurate.'
+    Project Skeleton:
+      score: 9.0
+      comment: 'The project has a complete structure. All the sections are there:
+        data acquisition, exploration, table answers, memo, and the AI statement,
+        and all the answers are in the right order. The Key Takeaway before each table
+        also makes the structure easy to follow. One small point: the headings "Exploratory
+        Questions-Inline Values" and "Exploratory Questions-Table Answers" are a bit
+        confusing, because the tables are answers, not questions. Clearer headings
+        would make the structure even better.'
+    Tables & Document Presentation:
+      score: 7.0
+      comment: 'Your tables are clean and easy to read. The columns are labeled clearly,
+        the numbers and percents are formatted well, and every table has a title.
+        Thing that neeed to fix, the last column of Table 1 is headed "Table 1: Share
+        of Total Viewership" instead of just "Share of Total Viewership," which looks
+        like a labeling mistake.'
+    Data Visualization:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Exploratory Data Analysis:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Code Quality:
+      score: 7.0
+      comment: 'Your code is easy to follow, and you use tidyverse pipelines well.
+        The Key Takeaway structure and the inline values for the exploratory questions
+        are good practice, because the numbers in the text always match the calculations.
+        Three things need fixing: first, the period end date for the first half of
+        each year is set to July 30 instead of June 30, so every first-half period
+        has the wrong end date. Second, your Stranger Things total is 5,588,900,000,
+        which is higher than the 5,548,500,000 from the stricter filter, most likely
+        because your title match is broader and your exclusions are case-sensitive.
+        Third, the last column of Table 1 is labeled "Table 1: Share of Total Viewership"
+        instead of "Share of Total Viewership." Fixing these three details would make
+        the code more reliable.'
+    Data Preparation:
+      score: 8.0
+      comment: 'The period end date for the first half of each year is July 30 instead
+        of June 30. If it then asks for a score, enter 8. If it asks why, paste this:
+        The data preparation is thorough: dates, runtimes, titles, and live events
+        are all cleaned, and missing runtimes are filled sensibly. But the period
+        end date for the first half of each year is set to July 30 instead of June
+        30, so every first-half period carries the wrong end date. Fixing that month
+        would make the preparation correct.'
+    Analysis and Findings:
+      score: 7.0
+      comment: 'Your analysis answers all the questions, and the memo is strong because
+        it argues from specific numbers and includes evidence, like the consistent
+        titles table and the charts. Three findings need attention: first, the date
+        range ends July 30, 2026, but the first half ends June 30, so that finding
+        is wrong. Second, the catalog takeaway says titles and runtime move in lockstep,
+        but from 2023H1 to 2023H2 the title count drops sharply while runtime rises,
+        so that takeaway does not fit the first period. Third, the shows and movies
+        table has a large Unclassified group in 2023H1, 31.9%, but the findings do
+        not explain what those titles are. Fixing these would make the analysis more
+        reliable.'
+    Extra Credit:
+      score: 2.0
+      comment: There is two well-formatted charted with the memo but no Gini Analysis,
+        so only 2 points for extra credits.
+  mp_number: 1.0
+peer_feedback_assignment_4:
+  issue_number: 118
+  issue_owner: liuzhenfang689-sys
+  issue_ok: yes
+  issue_status: OK
+  overall_comments:
+    positive: 'One notable strength of this submission is that it is careful about
+      what the data cannot show. Missing-runtime titles get an explicit "Unknown"
+      label instead of being hidden in a blank group, so the reader can see exactly
+      how much data is unclassified. The memo also raises a good limitation: higher
+      watch time does not mean higher profit, because production costs matter too.
+      That honesty about limits makes the analysis easier to trust.'
+    negative: 'One area where the submission could be improved is explaining what
+      the tables mean. The report gives correct tables but almost no interpretation:
+      there is no paragraph after any table, so patterns like the 2023H1 catalog spike
+      and the 28.0% Unknown group pass without comment. The memo is also narrow and
+      leaves out the global availability finding entirely. Adding a short interpretation
+      after each table and widening the memo would turn a correct report into a convincing
+      one.'
+    advice: Three concrete steps would improve the submission. First, add a short
+      interpretation paragraph after each table, especially explaining the 2023H1
+      catalog spike and the 28.0% Unknown group in 2023H1. Second, fix the Stranger
+      Things filter by excluding Tales titles, so the total reflects only the five
+      seasons. Third, add a memo recommendation based on the global availability finding,
+      since globally available titles are a minority of titles but a majority of hours
+      viewed.
+  scores:
+    Written Communication:
+      score: 6.0
+      comment: 'Your report is clear and simple, but it is quite thin on explanation.
+        The initial exploration only talks about missing values, and there is no interpretation
+        paragraph after any of the tables, so I often did not know what you thought
+        the numbers meant. The memo is also short, and it has a typo, "wattime" instead
+        of "watch time." Two small formatting points: the date range is given as raw
+        dates, 2023-01-01 to 2026-06-30, instead of written-out months, and the title
+        count is written as 24427 without a comma. Adding a short explanation after
+        each table would improve the writing a lot.'
+    Project Skeleton:
+      score: 9.0
+      comment: 'The project has a complete structure. All the sections are there:
+        data acquisition and cleaning, initial exploration, exploratory questions,
+        table answers, memo, and the AI statement, and all the answers are in the
+        right order. The task-based headings make it easy to follow what each part
+        is. One small point: both the inline values and the table answers restart
+        numbering at Question 1, so it is a bit confusing which set a question belongs
+        to.'
+    Tables & Document Presentation:
+      score: 7.0
+      comment: Your tables are clean and easy to read. The columns are labeled clearly,
+        the numbers and percents are formatted well, and every table has a title.
+        Thing need to fix:the catalog table reports total runtime in minutes instead
+        of hours, which makes it hard to compare with the usual hours figures. Reporting
+        it in hours would be clearer.
+    Data Visualization:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Exploratory Data Analysis:
+      score: 7.0
+      comment: The initial exploration uses summary instead of skim, and the only
+        paragraph discusses missing values. It does not discuss the shape of the viewing
+        hours, like the difference between the average and the median, or other patterns
+        in the data. A fuller exploration with skim and a discussion of those patterns
+        would make this section stronger.
+    Code Quality:
+      score: 7.0
+      comment: 'Your code is easy to follow, and you use tidyverse pipelines well.
+        Giving missing-runtime titles an explicit "Unknown" label is good, because
+        it does not hide them in a blank group. Two things to fix: first, your Stranger
+        Things filter excludes Beyond and Fireplace titles but not Tales titles, so
+        the total of 5,588,900,000 includes companion titles and is not just the five
+        seasons. Second, the memo shares are calculated but not used in the memo text,
+        so that code does not do anything. Removing it or using it for the memo numbers
+        would make the code cleaner.'
+    Data Preparation:
+      score: 10.0
+      comment: DEFAULT SCORE
+    Analysis and Findings:
+      score: 6.0
+      comment: 'Your analysis answers all the questions, and the numbers are mostly
+        correct. But the report presents tables without explaining what they mean.
+        There is no interpretation after any table, so patterns like the 2023H1 catalog
+        spike and the 28.0% Unknown group in 2023H1 go unremarked. The memo is also
+        narrow: it does not address the global availability finding, even though globally
+        available titles are a minority of titles but a majority of hours viewed.
+        Adding interpretations and a wider memo would make the analysis much stronger.'
+    Extra Credit:
+      score: 0.0
+      comment: There is no work have been done for extra credit.
+  mp_number: 1.0
+evaluator: meng2026bc
+
